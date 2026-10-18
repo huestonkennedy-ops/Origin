@@ -3,14 +3,9 @@ import java.util.ArrayList;
 import java.nio.file.Paths;
 public class Main {
     public static void main(String[] args) {
-        Clock watch = new Clock(1, 1, 1, 1);
-        System.out.println(watch);
-        watch.advance();
-        watch.advance();
-        System.out.println(watch);
-        for(int i=1; i<=3661; i++) {
-            watch.milAdvance();
-        }
-        System.out.println(watch);
+        Date myDate = new Date(2012,5,26);
+     Person Kanye = new Person("Connor", 13, 150, 90, myDate);
+     Person Josh = new Person("Joshua");
+     Kanye.twins(myDate);
     }
 }
