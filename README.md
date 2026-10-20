@@ -1,1 +1,1 @@
-My first github project!
+This is for experimenting with code when doing the University of Helinski MOOC course
